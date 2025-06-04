@@ -28,16 +28,16 @@ const Footer = () => {
             <h3>Послуги</h3>
             <ul>
               <li>
-                <a href="/services">Буст рангу</a>
+                <a>Буст рангу</a>
               </li>
               <li>
-                <a href="/services">Продаж акаунтів</a>
+                <a>Продаж акаунтів</a>
               </li>
               <li>
-                <a href="/services">Прокачка рівня</a>
+                <a>Прокачка рівня</a>
               </li>
               <li>
-                <a href="/services">Виконання квестів</a>
+                <a>Виконання квестів</a>
               </li>
             </ul>
           </div>
