@@ -28,16 +28,16 @@ const Footer = () => {
             <h3>Послуги</h3>
             <ul>
               <li>
-                <a>Буст рангу</a>
+                <a href="https://68404dd00eed1e00082d786b--gameboostservice.netlify.app/services">Буст рангу</a>
               </li>
               <li>
-                <a>Продаж акаунтів</a>
+                <a href="https://68404dd00eed1e00082d786b--gameboostservice.netlify.app/services">Продаж акаунтів</a>
               </li>
               <li>
-                <a>Прокачка рівня</a>
+                <a href="https://68404dd00eed1e00082d786b--gameboostservice.netlify.app/services">Прокачка рівня</a>
               </li>
               <li>
-                <a>Виконання квестів</a>
+                <a href="https://68404dd00eed1e00082d786b--gameboostservice.netlify.app/services">Виконання квестів</a>
               </li>
             </ul>
           </div>
