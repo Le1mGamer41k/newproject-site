@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -17,8 +17,10 @@ const initialState = {
 };
 
 function Login() {
+  const location = useLocation();
+  const initialRegisterState = location.state?.isRegistering || false;
   const [formData, setFormData] = useState(initialState);
-  const [isRegistering, setIsRegistering] = useState(false);
+  const [isRegistering, setIsRegistering] = useState(initialRegisterState);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
