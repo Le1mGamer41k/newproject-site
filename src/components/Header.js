@@ -84,12 +84,12 @@ const Header = () => {
               </div>
             ) : (
               <>
-                <Link to="/login" className="btn-login">
-                  Увійти
-                </Link>
-                <Link to="/login" className="btn-register">
-                  Реєстрація
-                </Link>
+                <Link to="/login" className="btn-login" state={{ isRegistering: false }}>
+  Увійти
+</Link>
+<Link to="/login" className="btn-register" state={{ isRegistering: true }}>
+  Реєстрація
+</Link>
               </>
             )}
           </div>
